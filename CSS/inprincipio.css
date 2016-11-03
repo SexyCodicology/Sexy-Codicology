@@ -1,0 +1,513 @@
+        p.leader {
+        padding-top: 30px
+    }
+    
+    p {
+        font-family: cabin, sans-serif;
+        font-size: 17px
+    }
+    
+    p.copyright {
+        font-size: 12px
+    }
+    
+    h1 {
+        font-family: 'UnifrakturCook', cursive;
+        font-size: 60px;
+        line-height: 100%;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6)
+    }
+    
+    h2,
+    h3 {
+        font-family: cabin, sans-serif;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+    }
+    
+    h4,
+    h6 {font-family: cabin, sans-serif;
+        
+    }
+    
+    h5 {
+        font-family: cabin, sans-serif;
+        font-size: 18px;
+    }
+    
+    li {
+        font-family: cabin, sans-serif;
+        font-size: 16px
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a:hover {
+        color: #003366;
+        cursor: pointer;
+        text-decoration: none;
+        text-shadow: 1px 1px 1.5px #FFF;
+    }
+    
+    a:visited {
+        color: #003366;
+        text-decoration: none;
+        text-shadow: 1px 1px 1.5px #FFF;
+    }
+    
+    a:link {
+        color: #003366;
+        text-decoration: none;
+        text-shadow: 1px 1px 1.5px #FFF;
+    }
+    
+    a {
+        color: #aaa;
+        text-decoration: none;
+    }
+    
+    body {
+        background-color: #FFF;
+    }
+    
+    #Main {
+        height: inherit;
+    }
+    
+    #Logo-Header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 46px;
+    }
+    
+    #Logo-Header .logo {
+        float: left;
+        margin-top: 18px;
+        margin-left: 10px;
+    }
+    
+    #manuscript {
+        float: right;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 20px;
+        color: #ffffff;
+    }
+    
+    #love {
+        display: block;
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    
+    #social {
+        position: absolute;
+        top: 358px;
+        width: 100%;
+        height: 245px;
+        z-index: 3;
+        background-image: url(../images/HpBg.png);
+        left: 0;
+    }
+    
+    #social::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 5px;
+        background: url(../images/sharing-top.png) repeat-x;
+        position: absolute;
+        top: -3px;
+        left: 0
+    }
+    
+    #homepage-like {
+        position: relative;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        width: 220px;
+        height: 230px;
+    }
+    
+    .like-button::before {
+        content: "";
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 99%;
+        position: absolute;
+        top: 0;
+        left: 2px;
+    }
+    
+    .like-button:active {
+        margin-bottom: 6px;
+        margin-top: 2px;
+        -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    
+    .sexy-like,
+    .like-button {
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        margin: 0 0 8px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #fff !important;
+        width: 220px;
+        line-height: 40px;
+        border: 0 !important;
+        padding: 0 !important;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+        border-radius: 3px;
+        background-clip: padding-box;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    }
+    
+    .sexy-like>span,
+    .like-button>span {
+        position: static;
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 11px 10px;
+        font-family: cabin, sans-serif;
+    }
+    
+    .like-button.twitter {
+        background: #00aced;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .like-button.twitter:hover {
+        background: #07bbff;
+    }
+    
+    .like-button.twitter i {
+        background-position: 0 0;
+    }
+    
+    .sexy-like i,
+    .like-button i {
+        background: url(../images/like-buttonsb.png) no-repeat;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        display: block;
+        float: left;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .like-button.facebook {
+        background: #3b5998;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .like-button.facebook:hover {
+        background: #4264aa;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .like-button.facebook i {
+        background-position: 0 -40px;
+    }
+    
+    .like-button.pinterest {
+        background: #cb2027;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .like-button.pinterest:hover {
+        background: #dd272f;
+    }
+    
+    .like-button.pinterest i {
+        background-position: 0 -80px;
+    }
+    
+    .like-button.tumblr {
+        background: #263d55;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .like-button.tumblr:hover {
+        background: #2e4a67;
+    }
+    
+    .like-button.tumblr i {
+        background-position: 0 -120px;
+    }
+    
+    #Blog {
+        position: absolute;
+        top: 600px;
+        width: 100%;
+        height: 290px;
+        z-index: 4;
+        background-image: url(../images/HpBg2.png);
+        left: 0;
+    }
+    
+    #knight {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 20px;
+        color: #ffffff;
+    }
+    
+    #Blog::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 5px;
+        background: url(../images/sharing-top2.png) repeat-x;
+        position: absolute;
+        top: -3px;
+        left: 0;
+    }
+    
+    .blog-button:active {
+        margin-bottom: 6px;
+        margin-top: 2px;
+        -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    
+    #blog-button {
+        height: 230px;
+        float: right;
+        margin-top: 15px;
+        padding-right: 130px;
+        position: relative;
+    }
+    
+    .blog-button::before {
+        content: "";
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 99%;
+        position: absolute;
+        top: 0;
+        left: 2px;
+    }
+    
+    .blog-button,
+    .visit-button {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin: 0 0 8px;
+        font-size: 23px;
+        font-weight: normal;
+        color: #fff !important;
+        width: 220px;
+        line-height: 40px;
+        border: 0 !important;
+        padding: 0;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+        border-radius: 3px;
+        background-clip: padding-box;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+    
+    .blog-button>span,
+    .blog-button>span {
+        position: static;
+        font-family: cabin, sans-serif;
+    }
+    
+    .blog-button.visit {
+        background: #a33921;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+    }
+    
+    .blog-button.visit:hover {
+        background: #b84025;
+    }
+    
+    .blog-button.visit i {
+        background-position: 0 0;
+    }
+    
+    .footer {
+        position: absolute;
+        top: 900px;
+        width: 100%;
+        height: auto;
+        z-index: 5;
+        left: 0;
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    
+    .container {
+        position: relative;
+        width: 960px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .container .three.columns {
+        width: 160px;
+    }
+    
+    .container .four.columns {
+        width: 220px;
+    }
+    
+    .container .column,
+    .container .columns {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .footer .copyright {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .footer .copyright img {
+        clear: both;
+        display: block;
+        margin: 0 auto 10px auto;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #columnA {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 580px;
+        padding-top: 50px;
+    }
+    
+    #columnB {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 580px;
+        text-align: right;
+        padding-top: 40px;
+        color: #fff;
+    }
+    
+    #columnC {
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 450px;
+        color: #333;
+        padding-top: 20px;
+    }
+    
+    #splash .leader {
+        font-size: 20px;
+        line-height: 1.2;
+        max-width: 520px;
+    }
+    
+    @media only screen and (max-width:767px) {
+        .container {
+            width: 300px;
+        }
+        .container .columns,
+        .container .column {
+            margin: 0;
+        }
+        .container .four.columns {
+            width: 100%;
+        }
+        #Logo-Header .logo {
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+        #splash {
+            position: absolute;
+            width: 100%;
+        }
+        #splash {
+            position: absolute;
+            width: 100%;
+            left: 0;
+        }
+        #splash {
+            padding-top: 40px;
+            font-size: 55px;
+        }
+        #homepage-like {
+            height: 260px;
+            float: none;
+            width: 100%;
+            padding-top: 0;
+        }
+        #homepage-like .sexy-like,
+        #homepage-like .like-button {
+            width: 100%;
+        }
+        #social {
+            position: absolute;
+            top: 425px;
+            left: 0;
+            z-index: 3;
+            width: 100%;
+            height: 555px;
+        }
+        #columnA {
+            float: none;
+            text-align: center;
+        }
+        #columnB {
+            float: none;
+            text-align: center;
+        }
+        #Blog {
+            top: 930px;
+            height: 520px;
+        }
+        .blog {
+            font-size: 40px
+        }
+        #columnC {
+            float: none;
+            text-align: center;
+        }
+        #knight {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        #manuscript {
+            display: none;
+        }
+        #blog-button {
+            padding-left: 40px;
+            float: none;
+            padding-top: 0;
+        }
+        .container .three.columns {
+            display: none;
+        }
+        .footer .copyright {
+            position: relative;
+            top: 440px;
+            left: 0;
+        }
+        .footer {
+            position: relative;
+            top: 990px
+        }
